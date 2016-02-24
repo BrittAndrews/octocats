@@ -3,42 +3,71 @@
 /*temporary img size*/
 
 img {
-	height: 300px;
+	height: 1000px;
+
 
 }
 
 .octodex {
 	border: 5px solid black;
 	overflow: hidden;
-		
+	
 }
 
 .octocat {
-	border: 5px solid yellow;
+	border: 5px solid gray;
 	float: left;
-	
+	margin: 40px;
+
 		
 }
 
 .image-footer {
 		border: 5px solid purple;
+
+
 }
 
+
 .image-number {
-		border: 5px solid pink;
+		/*border: 5px solid pink;*/
+		/*clear: both;*/
+		display: inline-block;
+		border: 5px solid red;
+
 }
 
 .image-caption {
 		border: 5px solid green;
+		/*float: right;*/
+		/*clear: both;*/
+		float: right;
+		display: inline;
+
+
+
+
 }
 
-.authors {
-		border: 5px solid blue;
+.image-caption span a {
+		border: 5px solid purple;
+		text-decoration: none;
+
+		
 
 }
+
 
 .authors img {
-		border: 5px solid blue;
-		height: 50px;
+		
+		height: 100px;
+		float: right;
+		/*clear: left;
+		
 }
+
+/*.image-caption span, a {
+		position: relative;
+		right: 200px;
+}*/
 
