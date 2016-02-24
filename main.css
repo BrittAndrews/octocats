@@ -1,11 +1,7 @@
 
-
-/*temporary img size*/
-
 img {
 	height: 1000px;
-
-
+	border-radius: 15px;
 }
 
 span {
@@ -13,37 +9,37 @@ span {
 }
 
 .octodex {
-	border: 5px solid black;
+	border: 8px solid black;
 	overflow: hidden;
-	
+	border-radius: 15px;
+	list-style-type: none;
 }
 
 .octocat {
-	border: 5px solid gray;
 	float: left;
-	margin: 40px;
+	margin: 50px;
+}
 
-
-		
+.octocat img {
+	border: 8px solid gray;
 }
 
 .image-footer {
-		border/*-bottom*/: 5px solid purple;
+		border-bottom: 5px solid purple;
 		overflow: hidden;
-		margin-top: 500px;
-
 }
 
-
 .image-number {
-		font-size: 150%;
-
+		font-size: 35px;
+		margin-top: 50px;
+		float: left;
+		color: gray;
+		font-weight: bold;
 }
 
 .image-caption {
 		float: right;
-		
-
+		line-height: 150px;	
 }
 
 .image-caption a {
@@ -51,21 +47,20 @@ span {
 		color: black;
 		font-weight: bold;
 		font-family: helvetica;
-		font-size: 150%;
-
-
+		font-size: 35px;
 }
 
 .image-caption span {
 		text-decoration: none;
-		font-size: 150%;
+		font-size: 35px;
+		color: gray;
 
 }
 
-
 .authors {
 	float: right;
-	line-height: -50px;
+	margin: 20px;
+	list-style-type: none;
 }
 
 .authors img {
@@ -73,6 +68,7 @@ span {
 		height: 100px;
 		float: right;
 		border-radius: 15px;
-		
+		border: none;
 }
+
 
