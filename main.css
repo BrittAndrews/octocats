@@ -1,1 +1,44 @@
-f
+
+
+/*temporary img size*/
+
+img {
+	height: 300px;
+
+}
+
+.octodex {
+	border: 5px solid black;
+	overflow: hidden;
+		
+}
+
+.octocat {
+	border: 5px solid yellow;
+	float: left;
+	
+		
+}
+
+.image-footer {
+		border: 5px solid purple;
+}
+
+.image-number {
+		border: 5px solid pink;
+}
+
+.image-caption {
+		border: 5px solid green;
+}
+
+.authors {
+		border: 5px solid blue;
+
+}
+
+.authors img {
+		border: 5px solid blue;
+		height: 50px;
+}
+
